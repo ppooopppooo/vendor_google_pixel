@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_settingsintelligence_log_action">com.google.android.settings.intelligence.LOG_BRIDGE</string>
+    <string name="config_settingsintelligence_package_name">com.google.android.settings.intelligence</string>
+</resources>
