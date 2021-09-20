@@ -2,4 +2,5 @@
 <resources>
     <string name="config_cameraProtectionExcludedPackages">com.google.android.as</string>
     <string name="config_screenshotEditor">com.google.android.markup/com.google.android.markup.AnnotateActivity</string>
+    <string name="themepicker_overlayable_package">com.google.android.apps.wallpaper</string>
 </resources>

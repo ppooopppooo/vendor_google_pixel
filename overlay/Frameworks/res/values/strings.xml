@@ -29,4 +29,5 @@
      <string name="config_systemVisualIntelligence">com.google.android.as</string>
      <string name="config_defaultDndAccessPackages" translatable="false">com.google.android.gms:com.google.android.apps.wellbeing:com.google.android.settings.intelligence</string>
      <string name="config_systemImageEditor">com.google.android.markup/com.google.android.markup.AnnotateActivity</string>
+     <string name="config_wallpaperCropperPackage">com.google.android.apps.wallpaper</string>
 </resources>
