@@ -3,6 +3,7 @@
 PRODUCT_PACKAGES += \
     DevicePersonalizationPrebuiltPixel2020 \
     MarkupGoogle \
+    NexusLauncherRelease \
     PixelThemesStub \
     SettingsIntelligenceGooglePrebuilt \
     SoundPickerPrebuilt \
@@ -12,8 +13,7 @@ PRODUCT_PACKAGES += \
     PixelConfigOverlay \
     PixelLauncherOverlay \
     PixelSettingsOverlay \
-    PixelSystemUIOverlay \
-    PixelWallpaperPickerOverlay
+    PixelSystemUIOverlay
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fonts/GoogleSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Regular.ttf \
