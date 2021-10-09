@@ -5,6 +5,7 @@ PRODUCT_PACKAGES += \
     MarkupGoogle \
     NexusLauncherRelease \
     PixelThemesStub \
+    RecorderPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     SoundPickerPrebuilt \
     WallpaperPickerGoogleRelease
@@ -33,4 +34,4 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural \
     ro.config.ringtone=The_big_adventure.ogg \
     ro.config.notification_sound=End_note.ogg \
-    ro.config.alarm_alert=Bright_morning.ogg    
+    ro.config.alarm_alert=Bright_morning.ogg
