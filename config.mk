@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/charger,$(TARGET_COPY_OUT_PRODUCT)/etc/res)
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/game-overlay.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/game-overlay.xml \
     $(LOCAL_PATH)/configs/pixel-sysconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel.xml \
     $(LOCAL_PATH)/configs/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
     $(LOCAL_PATH)/configs/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml
