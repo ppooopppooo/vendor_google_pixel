@@ -8,6 +8,7 @@ PRODUCT_PACKAGES += \
     RecorderPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     SoundPickerPrebuilt \
+    TurboPrebuilt \
     WallpaperPickerGoogleRelease
 
 PRODUCT_PACKAGES += \
