@@ -14,6 +14,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     PixelConfigOverlay \
+    PixelDocumentsUIGoogleOverlay \
     PixelLauncherOverlay \
     PixelSettingsOverlay \
     PixelSystemUIOverlay
