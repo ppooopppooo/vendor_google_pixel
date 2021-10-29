@@ -1,6 +1,7 @@
 # Pixel stuff
 
 PRODUCT_PACKAGES += \
+    DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2020 \
     MarkupGoogle \
     NexusLauncherRelease \
