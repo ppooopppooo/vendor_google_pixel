@@ -7,6 +7,7 @@ PRODUCT_PACKAGES += \
     NexusLauncherRelease \
     PixelThemesStub \
     RecorderPrebuilt \
+    SecurityHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     SoundPickerPrebuilt \
     TurboPrebuilt \
