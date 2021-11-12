@@ -71,7 +71,7 @@ LOCAL_SYSTEM_EXT_MODULE := true
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
-LOCAL_OVERRIDES_PACKAGES := WallpaperPicker WallpaperPicker2 ThemePicker
+LOCAL_OVERRIDES_PACKAGES := WallpaperCropper WallpaperPicker WallpaperPicker2 ThemePicker
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
