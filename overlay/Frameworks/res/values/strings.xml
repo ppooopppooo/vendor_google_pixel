@@ -33,4 +33,5 @@
      <string name="config_recentsComponentName">com.google.android.apps.nexuslauncher/com.android.quickstep.RecentsActivity</string>
      <string name="config_secondaryHomePackage">com.google.android.apps.nexuslauncher</string>
      <string name="config_batterySaverScheduleProvider">com.google.android.apps.turbo</string>
+     <string name="config_powerSaveModeChangedListenerPackage">com.google.android.flipendo</string>
 </resources>

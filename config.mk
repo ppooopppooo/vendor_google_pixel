@@ -3,6 +3,7 @@
 PRODUCT_PACKAGES += \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2020 \
+    Flipendo \
     MarkupGoogle \
     NexusLauncherRelease \
     PixelThemesStub \
@@ -10,6 +11,7 @@ PRODUCT_PACKAGES += \
     SecurityHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     SoundPickerPrebuilt \
+    TurboAdapter \
     TurboPrebuilt \
     WallpaperPickerGoogleRelease
 
@@ -39,3 +41,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=The_big_adventure.ogg \
     ro.config.notification_sound=End_note.ogg \
     ro.config.alarm_alert=Bright_morning.ogg
+
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    hardware/google/pixel-sepolicy/flipendo \
+    hardware/google/pixel-sepolicy/turbo_adapter
