@@ -5,8 +5,11 @@ PRODUCT_PACKAGES += \
     DevicePersonalizationPrebuiltPixel2020 \
     Flipendo \
     MarkupGoogle \
+    MicropaperPrebuilt \
     NexusLauncherRelease \
+    PixelLiveWallpaperPrebuilt \
     PixelThemesStub \
+    PixelWallpapers2021 \
     RecorderPrebuilt \
     SecurityHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
