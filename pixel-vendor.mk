@@ -99,10 +99,18 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     MarkupGoogle \
+    MicropaperPrebuilt \
+    PixelThemesStub \
+    PixelWallpapers2021 \
     SoundPickerPrebuilt \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2021 \
+    PixelLiveWallpaperPrebuilt \
+    RecorderPrebuilt \
+    SecurityHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     TurboPrebuilt \
     Flipendo \
-    TurboAdapter
+    NexusLauncherRelease \
+    TurboAdapter \
+    WallpaperPickerGoogleRelease

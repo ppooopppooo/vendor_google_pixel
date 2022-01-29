@@ -17,6 +17,39 @@ android_app_import {
 }
 
 android_app_import {
+	name: "MicropaperPrebuilt",
+	owner: "google",
+	apk: "proprietary/product/app/MicropaperPrebuilt/MicropaperPrebuilt.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "PixelThemesStub",
+	owner: "google",
+	apk: "proprietary/product/app/PixelThemesStub/PixelThemesStub.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "PixelWallpapers2021",
+	owner: "google",
+	apk: "proprietary/product/app/PixelWallpapers2021/PixelWallpapers2021.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "SoundPickerPrebuilt",
 	owner: "google",
 	apk: "proprietary/product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk",
@@ -44,6 +77,43 @@ android_app_import {
 	name: "DevicePersonalizationPrebuiltPixel2021",
 	owner: "google",
 	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "PixelLiveWallpaperPrebuilt",
+	owner: "google",
+	apk: "proprietary/product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "RecorderPrebuilt",
+	owner: "google",
+	apk: "proprietary/product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk",
+	overrides: ["SoundRecorder", "QtiSoundRecorder"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "SecurityHubPrebuilt",
+	owner: "google",
+	apk: "proprietary/product/priv-app/SecurityHubPrebuilt/SecurityHubPrebuilt.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -89,10 +159,36 @@ android_app_import {
 }
 
 android_app_import {
+	name: "NexusLauncherRelease",
+	owner: "google",
+	apk: "proprietary/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk",
+	overrides: ["Launcher3", "Launcher3QuickStep", "SearchLauncher", "SearchLauncherQuickStep"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "TurboAdapter",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/TurboAdapter/TurboAdapter.apk",
 	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "WallpaperPickerGoogleRelease",
+	owner: "google",
+	apk: "proprietary/system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk",
+	overrides: ["WallpaperCropper", "WallpaperPicker", "WallpaperPicker2", "ThemePicker"],
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
