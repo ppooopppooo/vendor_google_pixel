@@ -27,6 +27,7 @@ DEVICE_PACKAGE_OVERLAYS += vendor/google/pixel/overlay/static
 
 # Set default ringtone, notification and alarm
 PRODUCT_PRODUCT_PROPERTIES += \
+    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural \
     ro.config.ringtone=Your_new_adventure.ogg \
     ro.config.notification_sound=Eureka.ogg \
     ro.config.alarm_alert=Fresh_start.ogg
