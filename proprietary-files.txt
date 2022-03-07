@@ -1,14 +1,13 @@
 -product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
 -product/app/MicropaperPrebuilt/MicropaperPrebuilt.apk;PRESIGNED
 -product/app/PixelThemesStub/PixelThemesStub.apk;PRESIGNED
--product/app/PixelWallpapers2021/PixelWallpapers2021.apk;PRESIGNED
+-product/app/PixelWallpapers2020/PixelWallpapers2020.apk;PRESIGNED
 -product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/res/images/charger/battery_fail.png
 product/etc/res/images/charger/battery_scale.png
 product/etc/res/images/charger/main_font.png
 product/etc/res/values/charger/animation.txt
-product/etc/sysconfig/game_overlay.xml
 product/etc/sysconfig/google.xml:product/etc/sysconfig/pixel.xml
 product/etc/sysconfig/google_build.xml
 product/etc/sysconfig/nexus.xml
@@ -26,7 +25,6 @@ product/media/audio/alarms/A_real_hoot.ogg
 product/media/audio/alarms/Bright_morning.ogg
 product/media/audio/alarms/Cuckoo_clock.ogg
 product/media/audio/alarms/Early_twilight.ogg
-product/media/audio/alarms/Fresh_start.ogg
 product/media/audio/alarms/Full_of_wonder.ogg
 product/media/audio/alarms/Gentle_breeze.ogg
 product/media/audio/alarms/Icicles.ogg
@@ -39,7 +37,6 @@ product/media/audio/notifications/Beginning.ogg
 product/media/audio/notifications/Coconuts.ogg
 product/media/audio/notifications/Duet.ogg
 product/media/audio/notifications/End_note.ogg
-product/media/audio/notifications/Eureka.ogg
 product/media/audio/notifications/Gentle_gong.ogg
 product/media/audio/notifications/Mallet.ogg
 product/media/audio/notifications/Orders_up.ogg
@@ -62,9 +59,7 @@ product/media/audio/ringtones/Mash_up.ogg
 product/media/audio/ringtones/Monkey_around.ogg
 product/media/audio/ringtones/Schools_out.ogg
 product/media/audio/ringtones/The_big_adventure.ogg
-product/media/audio/ringtones/Your_new_adventure.ogg
 product/media/audio/ringtones/Zen_too.ogg
-product/media/audio/ui/AttentionalHaptics.ogg
 product/media/audio/ui/audio_end.ogg
 product/media/audio/ui/audio_initiate.ogg
 product/media/audio/ui/camera_click.ogg
@@ -94,8 +89,9 @@ product/media/audio/ui/VideoRecord.ogg
 product/media/audio/ui/VideoStop.ogg
 product/media/audio/ui/WirelessChargingStarted.ogg
 -product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
--product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk;PRESIGNED
+-product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk;PRESIGNED
 -product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk;PRESIGNED
+-product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;OVERRIDES=SoundRecorder,QtiSoundRecorder;PRESIGNED
 -product/priv-app/SecurityHubPrebuilt/SecurityHubPrebuilt.apk;PRESIGNED
 -product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;OVERRIDES=SettingsIntelligence;PRESIGNED
 -product/priv-app/TurboPrebuilt/TurboPrebuilt.apk;PRESIGNED
@@ -104,9 +100,6 @@ system_ext/etc/permissions/privapp-permissions-google-se.xml
 -system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk;OVERRIDES=Launcher3,Launcher3QuickStep,SearchLauncher,SearchLauncherQuickStep;PRESIGNED
 -system_ext/priv-app/TurboAdapter/TurboAdapter.apk
 -system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=WallpaperCropper,WallpaperPicker,WallpaperPicker2,ThemePicker;PRESIGNED
-
-# Recorder - from redfin
--product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;OVERRIDES=SoundRecorder,QtiSoundRecorder;PRESIGNED|94cd5fda384d44a9a095964c42cc27342e254983
 
 # Sysconfig - from marlin
 etc/sysconfig/pixel_2016_exclusive.xml:product/etc/sysconfig/pixel_2016_exclusive.xml|f4eeeeec14b22b913d865ba5895dcca9f0214f57

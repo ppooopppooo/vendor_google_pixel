@@ -26,12 +26,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/google/pixel/overlay/static
 DEVICE_PACKAGE_OVERLAYS += vendor/google/pixel/overlay/static
 
-# Set default ringtone, notification and alarm
+# Properties
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural \
-    ro.config.ringtone=Your_new_adventure.ogg \
-    ro.config.notification_sound=Eureka.ogg \
-    ro.config.alarm_alert=Fresh_start.ogg
+    ro.config.ringtone=The_big_adventure.ogg \
+    ro.config.notification_sound=End_note.ogg \
+    ro.config.alarm_alert=Bright_morning.ogg
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
