@@ -50,7 +50,7 @@
          PrebootReceiver does not properly hide the launcher in work profile,
          so we need to include this as well. -->
     <component-override package="com.google.android.documentsui" >
-        <component class="com.android.documentsui.LauncherActivity" enabled="false" />
+        <component class="com.android.documentsui.LauncherActivity" enabled="true" />
         <component class="com.android.documentsui.ViewDownloadsActivity" enabled="false" />
     </component-override>
 
