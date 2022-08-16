@@ -1,9 +1,11 @@
+etc/permissions/privapp-permissions-google.xml
+-priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk;PRESIGNED;OVERRIDES=DocumentsUI
 -product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
--product/app/MicropaperPrebuilt/MicropaperPrebuilt.apk;PRESIGNED
 -product/app/PixelThemesStub/PixelThemesStub.apk;PRESIGNED
 -product/app/PixelWallpapers2020/PixelWallpapers2020.apk;PRESIGNED
 -product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
 product/etc/permissions/privapp-permissions-google-p.xml
+product/etc/preferred-apps/google.xml:product/etc/preferred-apps/pixel.xml
 product/etc/res/images/charger/battery_fail.png
 product/etc/res/images/charger/battery_scale.png
 product/etc/res/images/charger/main_font.png
@@ -90,11 +92,11 @@ product/media/audio/ui/VideoStop.ogg
 product/media/audio/ui/WirelessChargingStarted.ogg
 -product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
 -product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk;PRESIGNED
+-product/priv-app/FilesPrebuilt/FilesPrebuilt.apk;PRESIGNED
 -product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk;PRESIGNED
 -product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;OVERRIDES=SoundRecorder,QtiSoundRecorder;PRESIGNED
 -product/priv-app/SecurityHubPrebuilt/SecurityHubPrebuilt.apk;PRESIGNED
 -product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;OVERRIDES=SettingsIntelligence;PRESIGNED
--product/priv-app/TurboPrebuilt/TurboPrebuilt.apk;PRESIGNED
 -system_ext/app/Flipendo/Flipendo.apk
 system_ext/etc/permissions/privapp-permissions-google-se.xml
 -system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk;OVERRIDES=Launcher3,Launcher3QuickStep,SearchLauncher,SearchLauncherQuickStep;PRESIGNED

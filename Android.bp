@@ -6,20 +6,21 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "MarkupGoogle",
+	name: "DocumentsUIGoogle",
 	owner: "google",
-	apk: "proprietary/product/app/MarkupGoogle/MarkupGoogle.apk",
+	apk: "proprietary/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk",
 	presigned: true,
+	overrides: ["DocumentsUI"],
 	dex_preopt: {
 		enabled: false,
 	},
-	product_specific: true,
+	privileged: true,
 }
 
 android_app_import {
-	name: "MicropaperPrebuilt",
+	name: "MarkupGoogle",
 	owner: "google",
-	apk: "proprietary/product/app/MicropaperPrebuilt/MicropaperPrebuilt.apk",
+	apk: "proprietary/product/app/MarkupGoogle/MarkupGoogle.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -86,6 +87,18 @@ android_app_import {
 }
 
 android_app_import {
+	name: "FilesPrebuilt",
+	owner: "google",
+	apk: "proprietary/product/priv-app/FilesPrebuilt/FilesPrebuilt.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
 	name: "PixelLiveWallpaperPrebuilt",
 	owner: "google",
 	apk: "proprietary/product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk",
@@ -127,18 +140,6 @@ android_app_import {
 	owner: "google",
 	apk: "proprietary/product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk",
 	overrides: ["SettingsIntelligence"],
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "TurboPrebuilt",
-	owner: "google",
-	apk: "proprietary/product/priv-app/TurboPrebuilt/TurboPrebuilt.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,

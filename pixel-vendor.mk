@@ -6,10 +6,12 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/google/pixel
 
 PRODUCT_COPY_FILES += \
+    vendor/google/pixel/proprietary/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
     vendor/google/pixel/proprietary/product/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml \
     vendor/google/pixel/proprietary/product/etc/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml \
     vendor/google/pixel/proprietary/product/etc/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml \
     vendor/google/pixel/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
+    vendor/google/pixel/proprietary/product/etc/preferred-apps/pixel.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/preferred-apps/pixel.xml \
     vendor/google/pixel/proprietary/product/etc/res/images/charger/battery_fail.png:$(TARGET_COPY_OUT_PRODUCT)/etc/res/images/charger/battery_fail.png \
     vendor/google/pixel/proprietary/product/etc/res/images/charger/battery_scale.png:$(TARGET_COPY_OUT_PRODUCT)/etc/res/images/charger/battery_scale.png \
     vendor/google/pixel/proprietary/product/etc/res/images/charger/main_font.png:$(TARGET_COPY_OUT_PRODUCT)/etc/res/images/charger/main_font.png \
@@ -96,18 +98,18 @@ PRODUCT_COPY_FILES += \
     vendor/google/pixel/proprietary/system_ext/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml
 
 PRODUCT_PACKAGES += \
+    DocumentsUIGoogle \
     MarkupGoogle \
-    MicropaperPrebuilt \
     PixelThemesStub \
     PixelWallpapers2020 \
     SoundPickerPrebuilt \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2020 \
+    FilesPrebuilt \
     PixelLiveWallpaperPrebuilt \
     RecorderPrebuilt \
     SecurityHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
-    TurboPrebuilt \
     Flipendo \
     NexusLauncherRelease \
     TurboAdapter \
