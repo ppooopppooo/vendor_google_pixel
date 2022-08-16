@@ -108,3 +108,7 @@ etc/sysconfig/pixel_2016_exclusive.xml:product/etc/sysconfig/pixel_2016_exclusiv
 
 # Dialer Call Recording
 product/etc/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml|42358ffb4f5a3bbdb7175fa9a0b37d3a350f1468
+
+# Ext Services
+etc/permissions/privapp_allowlist_com.google.android.ext.services.xml|e4b3cd562f6a313630eeccee1432d84aa71a44b0
+-priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices|975aa539192bbbe7f58f8e60fc8189fdfbfb5c0e

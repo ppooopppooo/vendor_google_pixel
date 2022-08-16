@@ -18,6 +18,18 @@ android_app_import {
 }
 
 android_app_import {
+	name: "GoogleExtServices",
+	owner: "google",
+	apk: "proprietary/priv-app/GoogleExtServices/GoogleExtServices.apk",
+	overrides: ["ExtServices"],
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "MarkupGoogle",
 	owner: "google",
 	apk: "proprietary/product/app/MarkupGoogle/MarkupGoogle.apk",

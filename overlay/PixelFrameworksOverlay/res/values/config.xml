@@ -300,4 +300,7 @@
     -->
     <bool name="config_systemCaptionsServiceCallsEnabled" translatable="false">true</bool>
 
+    <!-- Package name of the required service extension package. -->
+    <string name="config_servicesExtensionPackage" translatable="false">com.google.android.ext.services</string>
+
 </resources>
