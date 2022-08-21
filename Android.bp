@@ -52,9 +52,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PixelWallpapers2020",
+	name: "PixelWallpapers2021",
 	owner: "google",
-	apk: "proprietary/product/app/PixelWallpapers2020/PixelWallpapers2020.apk",
+	apk: "proprietary/product/app/PixelWallpapers2021/PixelWallpapers2021.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,

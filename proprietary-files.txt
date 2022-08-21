@@ -2,7 +2,6 @@ etc/permissions/privapp-permissions-google.xml
 -priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk;PRESIGNED;OVERRIDES=DocumentsUI
 -product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
 -product/app/PixelThemesStub/PixelThemesStub.apk;PRESIGNED
--product/app/PixelWallpapers2020/PixelWallpapers2020.apk;PRESIGNED
 -product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/preferred-apps/google.xml:product/etc/preferred-apps/pixel.xml
@@ -93,7 +92,6 @@ product/media/audio/ui/WirelessChargingStarted.ogg
 -product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
 -product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk;PRESIGNED
 -product/priv-app/FilesPrebuilt/FilesPrebuilt.apk;PRESIGNED
--product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk;PRESIGNED
 -product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;OVERRIDES=SoundRecorder,QtiSoundRecorder;PRESIGNED
 -product/priv-app/SecurityHubPrebuilt/SecurityHubPrebuilt.apk;PRESIGNED
 -product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;OVERRIDES=SettingsIntelligence;PRESIGNED
@@ -102,6 +100,10 @@ system_ext/etc/permissions/privapp-permissions-google-se.xml
 -system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk;OVERRIDES=Launcher3,Launcher3QuickStep,SearchLauncher,SearchLauncherQuickStep;PRESIGNED
 -system_ext/priv-app/TurboAdapter/TurboAdapter.apk
 -system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=WallpaperCropper,WallpaperPicker,WallpaperPicker2,ThemePicker;PRESIGNED
+
+# Wallpapers - from raven TP1A.220624.021
+-product/app/PixelWallpapers2021/PixelWallpapers2021.apk;PRESIGNED|098e5d3eb28f6aed1740cc420fa804c5a0a3c589
+-product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk;PRESIGNED|704a4a64711946b4950f0b9ed9e0ab19c5dd25bc
 
 # Sysconfig - from marlin
 etc/sysconfig/pixel_2016_exclusive.xml:product/etc/sysconfig/pixel_2016_exclusive.xml|f4eeeeec14b22b913d865ba5895dcca9f0214f57
