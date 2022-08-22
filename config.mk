@@ -24,7 +24,7 @@ PRODUCT_PACKAGES += \
     ThemedIconsOverlay
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/google/pixel/overlay/static
-DEVICE_PACKAGE_OVERLAYS += vendor/google/pixel/overlay/static
+PRODUCT_PACKAGE_OVERLAYS += vendor/google/pixel/overlay/static
 
 # Properties
 PRODUCT_PRODUCT_PROPERTIES += \
