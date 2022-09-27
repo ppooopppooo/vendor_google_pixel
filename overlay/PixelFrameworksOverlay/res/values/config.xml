@@ -303,4 +303,22 @@
     <!-- Package name of the required service extension package. -->
     <string name="config_servicesExtensionPackage" translatable="false">com.google.android.ext.services</string>
 
+    <!-- Default component for QR code scanner -->
+    <string name="config_defaultQrCodeComponent" translatable="false">com.google.android.gms/.mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy</string>
+
+    <!-- The package name list for the system's cloudsearch service.
+          This service returns cloudsearch results.
+          This service must be trusted, as it can be activated without explicit consent of the user.
+          If no service with the specified name exists on the device, cloudsearch will be disabled.
+          Example: "com.android.intelligence/.CloudSearchService"
+          config_defaultCloudSearchServices is for the multiple provider case.
+    -->
+    <string-array name="config_defaultCloudSearchServices">
+        <item>com.android.vending/com.google.android.finsky.cloudsearch.PlayCloudSearchService</item>
+        <item>com.android.chrome/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService</item>
+        <item>com.chrome.canary/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService</item>
+        <item>com.chrome.dev/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService</item>
+        <item>com.chrome.beta/com.google.android.apps.chrome.cloudsearch.ChromeCloudSearchService</item>
+    </string-array>
+
 </resources>
