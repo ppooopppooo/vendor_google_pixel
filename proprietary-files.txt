@@ -5,10 +5,6 @@ etc/permissions/privapp-permissions-google.xml
 -product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/preferred-apps/google.xml:product/etc/preferred-apps/pixel.xml
-product/etc/res/images/charger/battery_fail.png
-product/etc/res/images/charger/battery_scale.png
-product/etc/res/images/charger/main_font.png
-product/etc/res/values/charger/animation.txt
 product/etc/sysconfig/game_service.xml
 product/etc/sysconfig/google.xml:product/etc/sysconfig/pixel.xml
 product/etc/sysconfig/google_build.xml
