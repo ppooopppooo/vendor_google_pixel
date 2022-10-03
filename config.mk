@@ -34,4 +34,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
-    vendor/google/pixel/sepolicy
+    hardware/google/pixel-sepolicy/flipendo \
+    hardware/google/pixel-sepolicy/turbo_adapter
