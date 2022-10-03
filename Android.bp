@@ -6,18 +6,6 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "DocumentsUIGoogle",
-	owner: "google",
-	apk: "proprietary/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk",
-	presigned: true,
-	overrides: ["DocumentsUI"],
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "GoogleExtServices",
 	owner: "google",
 	apk: "proprietary/priv-app/GoogleExtServices/GoogleExtServices.apk",

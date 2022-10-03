@@ -1,5 +1,4 @@
 etc/permissions/privapp-permissions-google.xml
--priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk;PRESIGNED;OVERRIDES=DocumentsUI
 -product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
 -product/app/PixelThemesStub/PixelThemesStub.apk;PRESIGNED
 -product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
