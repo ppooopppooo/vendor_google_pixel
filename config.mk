@@ -36,3 +36,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 BOARD_VENDOR_SEPOLICY_DIRS += \
     hardware/google/pixel-sepolicy/flipendo \
     hardware/google/pixel-sepolicy/turbo_adapter
+
+# PixelThemesStub
+PRODUCT_PACKAGES += \
+    PixelThemesStub
