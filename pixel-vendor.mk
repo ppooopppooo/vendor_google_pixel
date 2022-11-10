@@ -24,6 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/pixel/proprietary/product/etc/sysconfig/pixel_experience_2020_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020_midyear.xml \
     vendor/google/pixel/proprietary/product/etc/sysconfig/pixel_experience_2021.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021.xml \
     vendor/google/pixel/proprietary/product/etc/sysconfig/pixel_experience_2021_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021_midyear.xml \
+    vendor/google/pixel/proprietary/product/etc/sysconfig/pixel_experience_2022.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2022.xml \
+    vendor/google/pixel/proprietary/product/etc/sysconfig/pixel_experience_2022_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2022_midyear.xml \
     vendor/google/pixel/proprietary/product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml \
     vendor/google/pixel/proprietary/product/etc/sysconfig/quick_tap.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/quick_tap.xml \
     vendor/google/pixel/proprietary/product/media/audio/alarms/A_real_hoot.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/A_real_hoot.ogg \
@@ -101,7 +103,7 @@ PRODUCT_PACKAGES += \
     PixelWallpapers2021 \
     SoundPickerPrebuilt \
     DeviceIntelligenceNetworkPrebuilt \
-    DevicePersonalizationPrebuiltPixel2021 \
+    DevicePersonalizationPrebuiltPixel2022 \
     FilesPrebuilt \
     PixelLiveWallpaperPrebuilt \
     RecorderPrebuilt \

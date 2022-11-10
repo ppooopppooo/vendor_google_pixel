@@ -15,6 +15,8 @@ product/etc/sysconfig/pixel_experience_2020_midyear.xml
 product/etc/sysconfig/pixel_experience_2020.xml
 product/etc/sysconfig/pixel_experience_2021.xml
 product/etc/sysconfig/pixel_experience_2021_midyear.xml
+product/etc/sysconfig/pixel_experience_2022.xml
+product/etc/sysconfig/pixel_experience_2022_midyear.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml
 product/etc/sysconfig/quick_tap.xml
 product/media/audio/alarms/A_real_hoot.ogg
@@ -85,7 +87,7 @@ product/media/audio/ui/VideoRecord.ogg
 product/media/audio/ui/VideoStop.ogg
 product/media/audio/ui/WirelessChargingStarted.ogg
 -product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
--product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk;PRESIGNED
+-product/priv-app/DevicePersonalizationPrebuiltPixel2022/DevicePersonalizationPrebuiltPixel2022.apk;PRESIGNED
 -product/priv-app/FilesPrebuilt/FilesPrebuilt.apk;PRESIGNED
 -product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;OVERRIDES=SoundRecorder,QtiSoundRecorder;PRESIGNED
 -product/priv-app/SecurityHubPrebuilt/SecurityHubPrebuilt.apk;PRESIGNED

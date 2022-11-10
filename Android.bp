@@ -64,9 +64,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "DevicePersonalizationPrebuiltPixel2021",
+	name: "DevicePersonalizationPrebuiltPixel2022",
 	owner: "google",
-	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk",
+	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2022/DevicePersonalizationPrebuiltPixel2022.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
