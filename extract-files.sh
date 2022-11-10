@@ -53,6 +53,22 @@ if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
 
+{
+    GMS0="\"com.google.android.gms"\"
+    STR1="allow-unthrottled-location package=$GMS0"
+    STR2="allow-ignore-location-settings package=$GMS0"
+    STR3="allow-in-power-save package=$GMS0"
+    STR4="allow-in-data-usage-save package=$GMS0"
+}
+
+function blob_fixup() {
+    case "${1}" in
+    product/etc/sysconfig/pixel.xml)
+        sed -i "/$STR1/d;/$STR2/d;/$STR3/d;/$STR4/d" "${2}"
+        ;;
+    esac
+}
+
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
